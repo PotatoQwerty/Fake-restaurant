@@ -1,0 +1,71 @@
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  background-color: #fbf7f7;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.gradient-title {
+  background: linear-gradient(135deg, #b0685e, #c3d3a6, #8dc181);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.menu-category ul {
+  padding: 0;
+  margin: 0;
+}
+.menu-category li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  margin-bottom: 20px;
+  min-height: 180px;
+}
+.menu-category li > div:first-child {
+  flex: 1 1 300px;
+  min-width: 220px;
+  max-width: 350px;
+}
+.img-wrapper {
+  flex: 0 0 250px;
+  width: 250px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cat-title {
+  font-size: 1.6rem;
+  color: #8ec080;
+}
+.item-name {
+  font-size: 1.2rem;
+  color: #b0675e;
+}
+.price {
+  font-size: 1.2rem;
+  color: #c4d4a7;
+  font-weight: bold;
+}
